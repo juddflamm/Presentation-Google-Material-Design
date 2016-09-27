@@ -38,3 +38,19 @@ Best Practices!
 
 https://material.google.com/patterns/confirmation-acknowledgement.html
 
+## Material Design Implementations
+http://tutorialzine.com/2016/03/the-15-best-material-design-frameworks-and-libraries/
+
+## Angular Material 2
+Getting Started
+
+https://github.com/angular/material2/blob/master/GETTING_STARTED.md
+
+Checkout my example code in the angular-material-2 folder of this repo
+
+## Angular Material 1
+Getting Started
+
+https://material.angularjs.org/latest/getting-started
+
+Checkout my example code in the angular-material-1 folder of this repo
