@@ -1,0 +1,127 @@
+<md-toolbar color="primary">
+  <md-icon id="menu-icon" (click)="sidenav.toggle()">menu</md-icon>
+  <span>Application Title</span>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space"></span>
+
+  <span>Right Aligned Text</span>
+</md-toolbar>
+
+<md-sidenav-layout>
+
+  <md-sidenav #sidenav opened="false" mode="side" style="padding: 15px, 15px, 15px, 0;">
+    <md-list>
+       <md-list-item> Pepper </md-list-item>
+       <md-list-item> Salt </md-list-item>
+       <md-list-item> Paprika </md-list-item>
+    </md-list>
+  </md-sidenav>
+
+  <div id="content-area">
+
+    <md-tab-group>
+      <md-tab>
+        <template md-tab-label>Buttons</template>
+        <template md-tab-content>
+
+          <md-card>
+            <md-card-content>
+
+              <md-button-toggle-group name="alignment">
+                <md-button-toggle value="left"><md-icon>format_align_left</md-icon></md-button-toggle>
+                <md-button-toggle value="center"><md-icon>format_align_center</md-icon></md-button-toggle>
+                <md-button-toggle value="right"><md-icon>format_align_right</md-icon></md-button-toggle>
+                <md-button-toggle value="justify"><md-icon>format_align_justify</md-icon></md-button-toggle>
+              </md-button-toggle-group>
+
+            </md-card-content>
+            <md-card-actions>
+              <button md-raised-button color="primary">PRIMARY</button>
+              <button md-raised-button color="accent">ACCENT</button>
+              <button md-raised-button color="warn">WARN</button>
+            </md-card-actions>
+          </md-card>
+
+        </template>
+      </md-tab>
+      <md-tab>
+        <template md-tab-label>Input</template>
+        <template md-tab-content>
+
+          <md-card>
+            <md-card-content>
+              <form>
+                <md-input id="tweet" #tweet dividerColor="accent" placeholder="Send a tweet..." maxlength="150">
+                  <md-hint align="end">{{tweet.characterCount}} / 150 Characters Max</md-hint>
+                </md-input>
+              </form>
+            </md-card-content>
+          </md-card>
+
+        </template>
+      </md-tab>
+      <md-tab>
+        <template md-tab-label>Grid List</template>
+        <template md-tab-content>
+
+          <md-grid-list cols="4" rowHeight="100px">
+            <md-grid-tile colspan="3" rowspan="1" [style.background]="'lightblue'">One</md-grid-tile>
+            <md-grid-tile colspan="1" rowspan="2" [style.background]="'lightgreen'">Two</md-grid-tile>
+            <md-grid-tile colspan="1" rowspan="1" [style.background]="'lightpink'">Three</md-grid-tile>
+            <md-grid-tile colspan="2" rowspan="1" [style.background]="'#DDBDF1'">Four</md-grid-tile>
+          </md-grid-list>
+
+          <br>
+
+          <md-grid-list cols="4" rowHeight="100px" gutterSize="15px">
+            <md-grid-tile colspan="3" rowspan="1">
+              <md-card>
+                <md-card-title>One</md-card-title>
+                <md-card-content>
+                  One
+                </md-card-content>
+              </md-card>
+            </md-grid-tile>
+            <md-grid-tile colspan="1" rowspan="2">
+              <md-card>
+                <md-card-title>Two</md-card-title>
+                <md-card-content>
+                  Two
+                </md-card-content>
+              </md-card>
+            </md-grid-tile>
+            <md-grid-tile colspan="1" rowspan="1">
+              <md-card>
+                <md-card-title>Three</md-card-title>
+                <md-card-content>
+                  Three
+                </md-card-content>
+              </md-card>
+            </md-grid-tile>
+            <md-grid-tile colspan="2" rowspan="1">
+              <md-card>
+                <md-card-title>Four</md-card-title>
+                <md-card-content>
+                  Four
+                </md-card-content>
+              </md-card>
+            </md-grid-tile>
+          </md-grid-list>
+
+        </template>
+      </md-tab>
+    </md-tab-group>
+
+  </div>
+
+</md-sidenav-layout>
+
+<md-toolbar id="footer" color="primary">
+  <span>Footer Left</span>
+
+  <!-- This fills the remaining space of the current row -->
+  <span class="example-fill-remaining-space">Footer Center</span>
+
+  <span>Footer Right</span>
+</md-toolbar>

@@ -1,0 +1,33 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/angular-material-2/dist
+/angular-material-2/tmp
+
+# dependencies
+/angular-material-2/node_modules
+/angular-material-2/bower_components
+
+# IDEs and editors
+/angular-material-2/.idea
+/angular-material-2/.project
+/angular-material-2/.classpath
+/angular-material-2/*.launch
+/angular-material-2/.settings/
+
+# misc
+/angular-material-2/.sass-cache
+/angular-material-2/connect.lock
+/angular-material-2/coverage/*
+/angular-material-2/libpeerconnection.log
+/angular-material-2npm-debug.log
+/angular-material-2testem.log
+/angular-material-2/typings
+
+# e2e
+/angular-material-2/e2e/*.js
+/angular-material-2/e2e/*.map
+
+#System Files
+/angular-material-2/.DS_Store
+/angular-material-2/Thumbs.db

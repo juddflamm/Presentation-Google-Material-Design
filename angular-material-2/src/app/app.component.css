@@ -1,0 +1,55 @@
+#menu-icon {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+md-sidenav {
+  padding: 15px;
+}
+
+#content-area {
+  padding: 0;
+  padding-bottom: 60px;
+}
+
+#content-area md-card {
+  margin: 15px;
+}
+
+#tweet {
+  width: 300px;
+}
+
+md-hint {
+  float: right;
+  margin-top: 6px;
+  font-size: .75em;
+  opacity: .5;
+}
+
+md-grid-list {
+  margin: 15px;
+}
+
+md-grid-tile md-card {
+  margin: 0 !important;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+md-toolbar#footer {
+  border-top: solid 1px #e0e0e0;
+  font-size: .8em;
+  color: #c0c0c0;
+  background-color: inherit;
+}
+
+md-toolbar#footer /deep/ md-toolbar-row {
+  height: 36px;
+}
