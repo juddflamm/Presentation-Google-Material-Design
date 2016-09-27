@@ -1,5 +1,4 @@
-# Presentation-AngularSummit2016-MaterialDesign
-Presentation about Material Design at Angular Summit 2016
+# Presentation about Google Material Design
 
 ## Presentation Scope
 
@@ -10,9 +9,9 @@ Presentation about Material Design at Angular Summit 2016
 ## Material Design Langauge
 Indtroduction, Goals & Priciples, and What Material Really Is
 
-https://material.google.com/
-
 https://www.youtube.com/watch?v=Q8TXgCzxEnw **video**
+
+https://material.google.com/
 
 ### Motion
 Motions provides meaning. Watch the Video!
