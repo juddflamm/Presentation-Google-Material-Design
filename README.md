@@ -1,4 +1,4 @@
-# Presentation about Google Material Design
+# Presentation - Google Material Design
 
 ## Presentation Scope
 
